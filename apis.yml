@@ -1,5 +1,5 @@
 aid: kubectl
-name: kubectl
+name: Kubectl
 description: >-
   kubectl is the official command-line tool for Kubernetes, used to deploy applications, inspect resources, and manage clusters via the Kubernetes API.
 type: Index
@@ -14,7 +14,7 @@ modified: '2026-03-25'
 specificationVersion: '0.19'
 apis:
   - aid: kubectl:kubectl
-    name: kubectl
+    name: Kubectl
     description: >-
       kubectl is the official command-line tool for Kubernetes, used to deploy applications, inspect resources, and manage clusters via the Kubernetes API.
     humanURL: https://kubernetes.io/docs/reference/kubectl/
