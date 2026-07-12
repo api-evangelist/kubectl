@@ -27,12 +27,18 @@ apis:
       - type: GitHubRepository
         url: https://github.com/kubernetes/kubectl
 common:
+  - type: VulnerabilityDisclosure
+    url: security/kubectl-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/kubectl-domain-security.yml
   - type: Website
     url: https://kubernetes.io/docs/reference/kubectl/
   - type: Documentation
     url: https://kubernetes.io/docs/reference/kubectl/overview/
   - type: GitHubOrganization
     url: https://github.com/kubernetes/kubectl
+  - url: https://kubernetes.io/feed.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
