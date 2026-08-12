@@ -39,6 +39,15 @@ apis:
       - type: GitHubRepository
         url: https://github.com/kubernetes/kubectl
 common:
+  - type: IssueTracker
+    url: https://github.com/kubernetes/kubectl/issues
+  - type: CodeOfConduct
+    url: https://github.com/kubernetes/kubectl/blob/master/code-of-conduct.md
+  - type: ContributionGuide
+    url: https://github.com/kubernetes/kubectl/blob/master/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/kubernetes/kubectl/blob/master/LICENSE
   - type: VulnerabilityDisclosure
     url: security/kubectl-vulnerability-disclosure.yml
   - type: DomainSecurity
